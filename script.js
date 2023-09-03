@@ -50,9 +50,6 @@ function mapLocation(latitude, longitude) {
 
   const iframe = document.createElement("iframe");
 
-  // <iframe src="https://maps.google.com/maps?q=18.6161,73.7286&z=15&output=embed"
-  // width="1205" height="583" frameborder="0" style="border:0"></iframe>
-
   const url = `https://maps.google.com/maps?q=${lati},${long}&z=15&output=embed`;
   iframe.src = url;
   iframe.className = "map";
