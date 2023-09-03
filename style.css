@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+main{
+    background: #360369;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+#fetchA{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#fetchBtn{
+    margin: 20px;
+    width: 492px;
+    height: 58px;
+}
+
+
+
+
+
+
+
+
+/* Index 2 CSS */
+.contain{
+    font-family: 'Montserrat', sans-serif;
+    background: #360369;
+    padding: 50px;
+}
+
+h3{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    /* margin-left: 20px; */
+}
+
+p{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 300;
+    opacity: 70%;
+    margin: 10px 0px;
+    /* margin-left: 20px; */
+}
+
+.LatnLong{
+    display: flex;
+    gap: 40px;
+    /* border: 2px solid white; */
+    width: 50%;
+    /* margin-left: 20px; */
+    margin-bottom: 40px;
+}
+
+.lati,.long{
+    border: none;
+    margin: 10px 0px;
+    width: 309px;
+    height: 57px;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #270846;
+}
+
+.map{
+    margin-left: 20px;
+    /* border: 2px solid white; */
+    width: 1205px;
+    height: 583px;
+    margin: 10px 0px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+}
+
+footer h5{
+    color: #360369;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btnsss{
+    color: #FFF;
+    background-color: #360369;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-inline: 15px;
+    margin-bottom: 20px;
+}
+
+/* Media Query */
+
+@media screen and (max-width:730px) {
+    .map{
+        margin-left: 20px;
+        /* border: 2px solid white; */
+        width: 500px;
+        height: 383px;
+        margin: 10px 0px;
+    }
+
+    .LatnLong{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .map{
+        margin-left: 20px;
+        /* border: 2px solid white; */
+        width: 600px;
+        height: 383px;
+        margin: 10px 0px;
+    }
+
+}
